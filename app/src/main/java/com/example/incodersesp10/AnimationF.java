@@ -100,7 +100,7 @@ public class AnimationF
 	private void rotateAni(final View view, final boolean on, final int ANITIME)
 	{
 		AnimationSet AniSet = new AnimationSet(true);
-		final float DEGREE = 180;
+		final float DEGREE = 360;
 		
 		RotateAnimation rotateAni = new RotateAnimation(0, on ? DEGREE : -DEGREE, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
 		rotateAni.setDuration(ANITIME + 30);
